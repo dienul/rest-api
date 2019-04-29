@@ -1,4 +1,4 @@
-// require('dotenv').config()
+require('dotenv').config()
 const express = require('express')
 const app = express()
 const port = process.env.PORT|| 3000
@@ -7,7 +7,7 @@ const todos = require('./routes/todos')
 const user = require('./routes/user')
 const Authentication = require('./middleware/Authentication')
 
-// console.log(process.env.SECRET);
+console.log(process.env.SECRET);
 
 
 app.use(express.json())
