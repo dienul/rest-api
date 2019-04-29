@@ -5,7 +5,7 @@ const index = require('./routes/index')
 const todos = require('./routes/todos')
 const user = require('./routes/user')
 const Authentication = require('./middleware/Authentication')
-require('dotenv').config()
+// require('dotenv').config()
 
 console.log(process.env.SECRET);
 
